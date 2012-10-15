@@ -1,0 +1,360 @@
+/* General settings */
+body
+{
+font-family: verdana,sans-serif;
+font-size: 12px;
+background: #e2e1db;
+height: auto;
+}
+
+/* Frame of the website */
+#frame
+{
+width: 972px;
+height: auto;
+margin-right: auto;
+margin-left: auto;
+margin-top: 5px;
+padding: 0px;
+text-align: left;
+border: 1px;
+}
+
+/* Header */
+#header
+{
+background: #f9f9f7;
+padding: 0px 0px 0px 0px;
+border-collapse: collapse;
+width: 972px;
+height: 150px;
+display: block;
+}
+
+#header img
+{
+	float: left;
+	padding-right: 20px;
+}
+
+.text h1
+{
+padding-top: 60px;
+color: #444444;
+font-weight: 700;
+}
+
+/* Menu Bar */
+
+#menubar
+{
+	float: left;
+	width: 972px;
+	height: 40px;
+	background-color: #E4314A;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+    display: block;
+}
+
+#menubar ul li {
+position: relative;
+display: inline;
+float: left;
+text-decoration: none;
+}
+
+#menubar ul li, ul li a:link, #menubar ul li a:visited, #menubar ul li a:active
+{
+color: white;
+}
+#menubar ul li a:hover, #menubar ul li a:focus
+{
+	color: blue;
+}
+
+#menubar ul li a 
+{
+	text-decoration: none;
+}
+
+/* Left Menu */
+
+#leftMenu
+{
+padding: 2px 0px 0px 15px;
+border-top-width: 0;
+float: left;
+border: 0px solid red;
+font-size: 1.1em;
+}
+
+#page-leftblock
+{
+float: left;
+height: 450px;
+text-align: left;
+border: solid 0px red;
+width: 139px;
+}
+
+#leftMenuHeader
+{
+height: 33px;
+width: 100%;
+text-align: center;
+margin-top:12px;
+}
+
+#leftMenu .menuItem
+{
+display: block;
+margin: 0 2px 2px 2px;
+color: white;
+}
+
+#leftMenu .menuItem a
+{
+display: block;
+background:#E4314A;
+text-decoration: none;
+padding: 3px 0px 3px 20px;
+width: 139px;
+color: white;
+font-weight:500;
+}
+
+.menuItem a:link, .menuItem a:visited
+{
+color: blue;
+}
+
+.menuItem a 
+{
+	text-decoration: none;
+}
+
+/* Contents */
+
+th {
+background: #E4314A;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+text-align: left;
+height: 20px;
+padding-left: 5px;
+color: white;
+font-size: 14px;
+}
+
+td a {
+color: red;
+}
+
+#contentblock 
+{
+	background: #F9F9F7;
+	padding: 0px 0px 0px 0px;
+	border-collapse: collapse;
+	width: 972px;
+	height: auto;
+	display: block;
+	float: left;
+}
+
+
+
+#introheader {
+color:#E4314A ;
+font-size: 1.5em;
+font-weight: 800;
+font-family: 'Century Gothic';
+
+margin-left: 40px;
+text-align: center;
+width: 350px;
+}
+
+#introsubheader
+{
+	color:#444444 ;
+	font-size: 1.2em;
+	font-family: 'Century Gothic';
+	margin-left: 60px;
+	width: 350px;
+	text-align: justify;
+}
+
+#rightblock
+{
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+#portal
+{
+	
+	margin-top: 40px;
+	float: left;
+}
+#logintable
+{
+	float: right;
+	padding: 0px 0px 0px 25px;
+	margin-top:40px;
+}
+
+/* Motto */
+
+#mottoMenu
+{
+padding:280px 0px 0px 0px;
+margin-left: -125px;
+border-top-width: 0;
+float: left;
+border: 0px solid red;
+font-size: 1.1em;
+
+}
+
+#pagemottoblock {
+float: left;
+height: 450px;
+text-align: left;
+border: solid 0px red;
+width: 139px;
+}
+
+#mottoMenuHeader {
+height: 45px;
+width: 100%;
+text-align: center;
+margin-top: 7px;
+}
+
+#mottoMenu .mottoItem {
+display: block;
+margin: 0 2px 22px 2px;
+color: white;
+}
+
+#mottoMenu .mottoItem a {
+display: block;
+background:#E4314A;
+text-decoration: none;
+text-align: justify;
+padding: 3px 0px 3px 20px;
+width: 139px;
+color: white;
+font-weight:500;
+}
+
+.mottoItem a:link, .mottoItem a:visited
+{
+color: blue;
+}
+
+.mottoItem a 
+{
+	text-decoration: none;
+}
+
+.mottohead p 
+{
+	font-weight: bold;
+	text-align: center;
+	color: red;
+	font-size: 1.1em;
+}
+
+#imgholder
+{
+	margin-left: 200px;
+}
+
+/* Announcements List */
+#results
+{
+	padding: 26px 0px 0px 220px;
+	font-size: 14px;	
+}
+
+#results ul li, ul li a:link, #results ul li a:visited
+{
+color: red;
+}
+
+#results ul
+{
+	list-style-type: none;
+}
+
+#results h2,h3
+{
+	color: #444;
+}
+
+#footerblock
+{
+float: left;
+width: 972px;
+height: 40px;
+background-color: #E4314A;
+display: block;
+padding-top: 5px;
+}
+
+#careerblk
+{
+	width: 770px;
+	margin-left: 200px;
+	color: #444;
+}
+
+#careerblk h3
+{
+	background-color:#E4314A;
+	height: 20px;
+	color: white;
+	padding-left: 5px;
+}
+
+#careerblk h3 a:link, a:visited
+{
+	color: blue;
+}
+
+.pushup
+{
+	padding-bottom: 6px;
+}
+
+#visionblk
+{
+	width: 770px;
+	margin-left: 200px;
+	color: #444;
+}
+
+#visionblk h3
+{
+	background-color:#E4314A;
+	height: 20px;
+	color: white;
+	padding-left: 5px;
+}
+
+#historyblk
+{
+	width: 770px;
+	margin-left: 200px;
+	color: #444;
+	font-size: 14px;
+	margin-top: 40px;
+}
+#historyblk img
+{
+	float:left;
+	margin-right:20px;
+	
+}
